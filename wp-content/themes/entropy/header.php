@@ -1,3 +1,4 @@
+<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 <!DOCTYPE html>
 <html>
 <head>
