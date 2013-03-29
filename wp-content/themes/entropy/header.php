@@ -15,7 +15,7 @@
 <body>
 
 	<header <?php 
-        echo 'style="background-image: url(' . get_template_directory_uri() . '/images/bg-overlay-mono.png),
+        echo 'style="background-image: url(' . get_template_directory_uri() . '/images/overlay-4.png),
                 url(' . get_template_directory_uri() . '/images/new' . rand(1, 7) . '-medium.jpg);"'
         ?>>
 		<div class="header-inner">
