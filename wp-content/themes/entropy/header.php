@@ -1,7 +1,7 @@
-<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 <!DOCTYPE html>
 <html>
 <head>
+<script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
 <meta charset="utf-8">
 <title><?php bloginfo('name'); ?><?php wp_title("|",true); ?></title>
 <meta name="description" content="<?php bloginfo('description'); ?>">
