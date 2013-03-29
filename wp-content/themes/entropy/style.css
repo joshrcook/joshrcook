@@ -184,13 +184,13 @@
 		text-decoration: underline;
 	}
 
-	div.menu {
+	div.menu-main-navigation-container {
 		background-color: #ddd;
 		width: 100%;
 		display:block;
 	}
 
-	div.menu ul {
+	ul.menu {
 		display:table;
 		width: 100%;
 		max-width: 960px;
@@ -198,12 +198,12 @@
 		padding: 1em 0;
 	}
 
-	div.menu li {
+	.menu li {
 		display: table-cell;
 		text-align: center;
 	}
 
-	div.menu li a {
+	.menu li a {
 		color: #999;
 		font-size: 2em;
 		line-height: 1.5em;
@@ -213,7 +213,7 @@
 		-moz-transition: color .25s linear;
 	}
 
-	div.menu li a:hover {
+	.menu li a:hover {
 		color: #333;
 		text-decoration: none;
 	}
@@ -352,3 +352,4 @@ h3.col-left {
 			width: 400px;
 		}
 	}
+
