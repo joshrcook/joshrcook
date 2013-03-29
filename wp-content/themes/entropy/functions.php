@@ -15,5 +15,9 @@ add_action('after_setup_theme', 'add_menu_support');
 function register_menus() {
     
 	register_nav_menu('primary-navigation', __('Main Navigation'));
-        
+
 }
+
+add_action('init', 'register_menus');
+
+
