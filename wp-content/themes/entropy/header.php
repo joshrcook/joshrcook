@@ -30,5 +30,9 @@
 		</div>
 	</header>
 	<?php
-	wp_nav_menu('primary-navigation');
+        $menu_args = array(
+            'container_class' => 'container',
+            'menu' => 'primary-navigation'
+        );
+	wp_nav_menu($menu_args);
 	?>
