@@ -31,7 +31,7 @@
 	</header>
 	<?php
         $menu_args = array(
-            'menu_class' => 'container',
+            'menu_class' => 'container menu',
             'menu' => 'primary-navigation'
         );
 	wp_nav_menu($menu_args);
