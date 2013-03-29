@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300,400,700">
 <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
-<body>
+<body class="adaptive-images">
 
 	<header <?php 
         echo 'style="background-image: url(' . get_template_directory_uri() . '/images/overlay-4.png),

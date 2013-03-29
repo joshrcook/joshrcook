@@ -258,9 +258,8 @@
 		text-decoration: none;
 	}
 	article h3 {
-		margin: 40px 0 40px;
 		font-size: 24px;
-		line-height: 0;
+		line-height: 30px;
 		color: #999;
 	}
 	article p {
@@ -289,6 +288,32 @@
 	#disqus_thread {
 		margin-top: 60px;
 	}
+
+/*
+
+Columns
+
+*/
+
+.col-left {
+ 	display: inline-block;
+  width: 30%;
+  vertical-align: text-top;
+}
+
+h2.col-left {
+ 	line-height: 44px; 
+}
+
+h3.col-left {
+ 	line-height: 24px; 
+}
+
+.col-right {
+ 	display: inline-block;
+  width: 65%;
+  vertical-align: text-top;
+}
 
 /*
 
